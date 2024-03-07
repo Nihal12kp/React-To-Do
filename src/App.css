@@ -1,0 +1,102 @@
+.App {
+  font-family: sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: auto;
+ background-color: #282c34;
+
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.Todo{
+  background-color: rgb(49, 47, 47);
+  text-align: center;
+  width: 50%;
+  padding: 20px;
+  margin: 0;
+}
+ul{
+  list-style-type: none;
+  padding: 10px;
+  margin: 0;
+}
+button{
+padding: 10px 24px;
+  background-color: rgb(240, 168, 59);
+  border-style: dotted;
+  font-size: 10px;
+  font-weight: 800;
+  border-radius: 4px;
+  
+}
+
+.input{
+  
+  border-style: dotted;
+  width: 340px;
+  height: 35px;
+  border-radius: 9px;
+  text-align: center;
+  
+}
+.To{
+  color: black;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 10px;
+}
+h1{
+  color: antiquewhite;
+  text-align: center;
+
+}
+.body{
+  color: black;
+width: auto;
+text-align: center;
+bottom: auto;
+}
+.my{
+  border-style: solid;
+  background-color: antiquewhite;
+}
+ .bt button{
+  color: lightcoral;
+  
+ }
